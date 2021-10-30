@@ -1,0 +1,28 @@
+.container {
+  color: #fff;
+  margin: 1em 2em;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.paths {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2em;
+
+  .link {
+    color: #fff;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    transition: transform 0.2s ease-in-out,
+                color 0.2s ease-in-out;
+
+    &:hover {
+      color: #f1c40f;
+      transform: translateX(.5em);
+    }
+  }
+}

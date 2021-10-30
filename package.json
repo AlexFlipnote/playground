@@ -1,0 +1,25 @@
+{
+  "name": "playground",
+  "description": "A collection of small websites I built when I was bored",
+  "author": "AlexFlipnote",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "yarn build && next export",
+    "github": "yarn export && cp ./.nojekyll ./out/.nojekyll",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^12.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "sass": "^1.43.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "eslint-plugin-react": "^7.26.1"
+  }
+}
